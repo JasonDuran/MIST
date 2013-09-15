@@ -7,7 +7,7 @@
 
 <p>
   <b>Standard:</b>
-  <%= @message.standard_id %>
+  <%= Standard.find(@message.standard_id).name %>
 </p>
 
 

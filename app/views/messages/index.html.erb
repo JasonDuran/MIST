@@ -12,7 +12,8 @@
 <% @messages.each do |message| %>
   <tr>
     <td><%= message.name %></td>
-    <td><%= message.standard_id %></td>
+    <% stan = Standard.find(message.standard_id) %>
+    <td><%= stan.name %></td>
     <td><%= link_to 'Show', message %></td>
     <td><%= link_to 'Edit', edit_message_path(message) %></td>
     <td><%= link_to 'Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %></td>

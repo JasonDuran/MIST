@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :standard_id %><br />
-    <%= f.number_field :standard_id %>
+    <%= collection_select( :message, :standard_id, Standard.all, :id, :name, {:prompt =>false}) %>
   </div>
   <div class="actions">
     <%= f.submit %>

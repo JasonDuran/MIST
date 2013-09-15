@@ -25,7 +25,7 @@ class MessagesController < ApplicationController
   # GET /messages/new.json
   def new
     @message = Message.new
-
+    @standards = Standard.all
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @message }
@@ -34,12 +34,14 @@ class MessagesController < ApplicationController
 
   # GET /messages/1/edit
   def edit
+    @standards = Standard.all
     @message = Message.find(params[:id])
   end
 
   # POST /messages
   # POST /messages.json
   def create
+    @standards = Standard.all
     @message = Message.new(params[:message])
 
     respond_to do |format|
