@@ -1,0 +1,29 @@
+<h1>Listing message_fields</h1>
+
+<table>
+  <tr>
+    <th>Message</th>
+    <th>Projection</th>
+    <th>Name</th>
+    <th>Conceptual field</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @message_fields.each do |message_field| %>
+  <tr>
+    <td><%= message_field.message_id %></td>
+    <td><%= message_field.projection %></td>
+    <td><%= message_field.name %></td>
+    <td><%= message_field.conceptual_field_id %></td>
+    <td><%= link_to 'Show', message_field %></td>
+    <td><%= link_to 'Edit', edit_message_field_path(message_field) %></td>
+    <td><%= link_to 'Destroy', message_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Message field', new_message_field_path %>

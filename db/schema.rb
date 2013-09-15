@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130915184858) do
+ActiveRecord::Schema.define(:version => 20130915193714) do
 
   create_table "conceptual_entities", :force => true do |t|
     t.string   "name"
@@ -25,6 +25,15 @@ ActiveRecord::Schema.define(:version => 20130915184858) do
     t.integer  "conceptual_entity_id"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
+  end
+
+  create_table "message_fields", :force => true do |t|
+    t.integer  "message_id"
+    t.string   "projection"
+    t.string   "name"
+    t.integer  "conceptual_field_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
   end
 
   create_table "messages", :force => true do |t|

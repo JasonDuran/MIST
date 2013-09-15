@@ -1,4 +1,7 @@
 MIST::Application.routes.draw do
+  resources :message_fields
+
+
   resources :conceptual_fields
 
 

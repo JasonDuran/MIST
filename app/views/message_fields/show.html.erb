@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Message:</b>
+  <%= @message_field.message_id %>
+</p>
+
+<p>
+  <b>Projection:</b>
+  <%= @message_field.projection %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @message_field.name %>
+</p>
+
+<p>
+  <b>Conceptual field:</b>
+  <%= @message_field.conceptual_field_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_message_field_path(@message_field) %> |
+<%= link_to 'Back', message_fields_path %>
