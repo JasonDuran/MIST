@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @conceptual_field.name %>
+</p>
+
+<p>
+  <b>Datatype:</b>
+  <%= @conceptual_field.datatype %>
+</p>
+
+<p>
+  <b>Conceptual entity:</b>
+  <%= @conceptual_field.conceptual_entity_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_conceptual_field_path(@conceptual_field) %> |
+<%= link_to 'Back', conceptual_fields_path %>
