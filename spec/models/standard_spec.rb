@@ -1,5 +1,12 @@
-require 'spec_helper'
+require 'active_record'
+require '../../spec/spec_helper'
+require '../../app/models/standard'
 
 describe Standard do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+  it 'Ensure can not save w/o name and version' do
+    #stan = Standard.new
+    #stan.valid?.should be_false
+  end
+
 end
