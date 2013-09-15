@@ -1,0 +1,23 @@
+<h1>Listing conceptual_entities</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @conceptual_entities.each do |conceptual_entity| %>
+  <tr>
+    <td><%= conceptual_entity.name %></td>
+    <td><%= link_to 'Show', conceptual_entity %></td>
+    <td><%= link_to 'Edit', edit_conceptual_entity_path(conceptual_entity) %></td>
+    <td><%= link_to 'Destroy', conceptual_entity, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Conceptual entity', new_conceptual_entity_path %>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c19aea19-a5f6-46d2-b200-d09cf67c753c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/standard_spec.rb" afterPath="$PROJECT_DIR$/spec/models/standard_spec.rb" />
-    </list>
+    <list default="true" id="c19aea19-a5f6-46d2-b200-d09cf67c753c" name="Default" comment="" />
     <ignored path="MIST.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379192398955" ignored="false" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="standard_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/standard_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3938731">
+            <state line="12" column="35" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3938731">
               <folding />
             </state>
           </provider>
@@ -908,7 +906,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/standard_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3938731">
+        <state line="12" column="35" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3938731">
           <folding />
         </state>
       </provider>

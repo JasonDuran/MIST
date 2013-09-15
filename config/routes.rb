@@ -1,4 +1,7 @@
 MIST::Application.routes.draw do
+  resources :conceptual_entities
+
+
   resources :messages
   resources :standards
 

@@ -1,0 +1,21 @@
+<%= form_for(@conceptual_entity) do |f| %>
+  <% if @conceptual_entity.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@conceptual_entity.errors.count, "error") %> prohibited this conceptual_entity from being saved:</h2>
+
+      <ul>
+      <% @conceptual_entity.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
