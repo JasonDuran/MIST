@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c19aea19-a5f6-46d2-b200-d09cf67c753c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conceptual_entity.rb" afterPath="$PROJECT_DIR$/app/models/conceptual_entity.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conceptual_field.rb" afterPath="$PROJECT_DIR$/app/models/conceptual_field.rb" />
     </list>
     <ignored path="MIST.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,8 +18,9 @@
     <file path="/standard.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379212914919" ignored="false" />
     <file path="/standard_spec.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379222896020" ignored="false" />
     <file path="/a.dummy" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379220772707" ignored="false" />
-    <file path="$PROJECT_DIR$/db/schema.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379267931933" ignored="false" />
-    <file path="/conceptual_entity.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379270700070" ignored="false" />
+    <file path="/conceptual_entity.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379272129617" ignored="false" />
+    <file path="$PROJECT_DIR$/db/schema.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379272063040" ignored="false" />
+    <file path="/conceptual_field.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379272643412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conceptual_entity.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="conceptual_entity.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/conceptual_entity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="19" selection-start="154" selection-end="154" vertical-scroll-proportion="0.2905569">
+            <state line="8" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conceptual_field.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/conceptual_field.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="9" selection-start="255" selection-end="255" vertical-scroll-proportion="0.34526855">
               <folding />
             </state>
           </provider>
@@ -131,6 +142,7 @@
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/spec/models/standard_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/conceptual_entity.rb" />
+        <option value="$PROJECT_DIR$/app/models/conceptual_field.rb" />
       </list>
     </option>
   </component>
@@ -852,13 +864,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/messages/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="38" selection-start="675" selection-end="675" vertical-scroll-proportion="-12.833333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/messages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="58" selection-start="206" selection-end="206" vertical-scroll-proportion="-4.375">
@@ -959,7 +964,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/conceptual_entity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="154" selection-end="154" vertical-scroll-proportion="0.2905569">
+        <state line="8" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/conceptual_field.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="255" selection-end="255" vertical-scroll-proportion="0.34526855">
           <folding />
         </state>
       </provider>

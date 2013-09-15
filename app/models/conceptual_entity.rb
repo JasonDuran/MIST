@@ -4,5 +4,5 @@ class ConceptualEntity < ActiveRecord::Base
   validates_presence_of("name")
   validates_uniqueness_of("name")
 
-  #has_many()
+  has_many :conceptual_fields, dependent: :destroy
 end
