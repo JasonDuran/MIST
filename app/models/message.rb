@@ -6,4 +6,6 @@ class Message < ActiveRecord::Base
   validates_uniqueness_of(:name, :scope=> :standard_id)
 
   belongs_to :Standard
+
+  has_many :message_fields, dependent: :destroy
 end
