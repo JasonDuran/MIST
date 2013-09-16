@@ -1,5 +1,8 @@
 <p id="notice"><%= notice %></p>
-
+<p>
+  <b>Conceptual entity:</b>
+  <%=ConceptualEntity.find(@conceptual_field.conceptual_entity_id).name %>
+</p>
 <p>
   <b>Name:</b>
   <%= @conceptual_field.name %>
@@ -8,11 +11,6 @@
 <p>
   <b>Datatype:</b>
   <%= @conceptual_field.datatype %>
-</p>
-
-<p>
-  <b>Conceptual entity:</b>
-  <%= @conceptual_field.conceptual_entity_id %>
 </p>
 
 

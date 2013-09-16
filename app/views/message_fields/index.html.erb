@@ -3,9 +3,9 @@
 <table>
   <tr>
     <th>Message</th>
-    <th>Projection</th>
-    <th>Name</th>
     <th>Conceptual field</th>
+    <th>Name</th>
+    <th>Projection</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,10 +13,12 @@
 
 <% @message_fields.each do |message_field| %>
   <tr>
-    <td><%= message_field.message_id %></td>
-    <td><%= message_field.projection %></td>
+    <% msg = Message.find(message_field.message_id)
+       con = ConceptualField.find(message_field.conceptual_field_id) %>
+    <td><%= msg.name %></td>
+    <td><%= con.name %></td>
     <td><%= message_field.name %></td>
-    <td><%= message_field.conceptual_field_id %></td>
+    <td><%= message_field.projection %></td>
     <td><%= link_to 'Show', message_field %></td>
     <td><%= link_to 'Edit', edit_message_field_path(message_field) %></td>
     <td><%= link_to 'Destroy', message_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>

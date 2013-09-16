@@ -7,9 +7,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="container">
 
-<%= yield %>
+<div id="header" style="height:60px;background-color:#0066CC;">
+  <h1 style="margin-bottom:0;">Message Interoperability & Semantic Tool (MIST)</h1>
+</div>
 
+<div>
+<table>
+  <tr>
+    <td style="background-color:#66A3E0;width:180px;float:left;">
+      <b>Menu</b><br>
+      <%=link_to "Standards", standards_path  %><br>
+      <%=link_to "Messages", messages_path  %><br>
+      <%=link_to "Message Fields", message_fields_path  %><br>
+      <%=link_to "Conceptual Entities", conceptual_entities_path  %><br>
+      <%=link_to "Conceptual Fields", conceptual_fields_path  %><br>
+    </td>
+    <td style="background-color:#EEEEEE;width:400px;float:left;">
+      <%= yield %>
+    </td>
+  </tr>
+</table>
+</div>
+
+<div id="footer" style="background-color:#0066CC;clear:both;text-align:center;">
+  Foundations of Software Engineering - Jason Duran
+</div>
+
+</div>
 </body>
 </html>
-

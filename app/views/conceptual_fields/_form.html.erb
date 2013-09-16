@@ -10,7 +10,10 @@
       </ul>
     </div>
   <% end %>
-
+  <div class="field">
+    <%= f.label :conceptual_entity_id %><br />
+    <%= collection_select( :conceptual_field, :conceptual_entity_id, ConceptualEntity.all, :id, :name, {:prompt =>false}) %>
+  </div>
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
@@ -18,10 +21,6 @@
   <div class="field">
     <%= f.label :datatype %><br />
     <%= f.text_field :datatype %>
-  </div>
-  <div class="field">
-    <%= f.label :conceptual_entity_id %><br />
-    <%= f.number_field :conceptual_entity_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

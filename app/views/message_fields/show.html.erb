@@ -2,12 +2,12 @@
 
 <p>
   <b>Message:</b>
-  <%= @message_field.message_id %>
+  <%=Message.find(@message_field.message_id).name %>
 </p>
 
 <p>
-  <b>Projection:</b>
-  <%= @message_field.projection %>
+  <b>Conceptual field:</b>
+  <%=ConceptualField.find(@message_field.conceptual_field_id).name %>
 </p>
 
 <p>
@@ -16,10 +16,9 @@
 </p>
 
 <p>
-  <b>Conceptual field:</b>
-  <%= @message_field.conceptual_field_id %>
+  <b>Projection:</b>
+  <%= @message_field.projection %>
 </p>
-
 
 <%= link_to 'Edit', edit_message_field_path(@message_field) %> |
 <%= link_to 'Back', message_fields_path %>

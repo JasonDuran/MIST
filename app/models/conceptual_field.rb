@@ -5,5 +5,7 @@ class ConceptualField < ActiveRecord::Base
   validates_presence_of("name")
   validates_presence_of("conceptual_entity_id")
 
+
+
   belongs_to :conceptual_entity
 end

@@ -2,25 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19aea19-a5f6-46d2-b200-d09cf67c753c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/message.rb" afterPath="$PROJECT_DIR$/app/models/message.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conceptual_fields/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/conceptual_fields/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/message_fields/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/message_fields/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/conceptual_field.rb" afterPath="$PROJECT_DIR$/app/models/conceptual_field.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conceptual_fields/index.html.erb" afterPath="$PROJECT_DIR$/app/views/conceptual_fields/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/message_fields/index.html.erb" afterPath="$PROJECT_DIR$/app/views/message_fields/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/message_field.rb" afterPath="$PROJECT_DIR$/app/models/message_field.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/conceptual_fields/show.html.erb" afterPath="$PROJECT_DIR$/app/views/conceptual_fields/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/message_fields/show.html.erb" afterPath="$PROJECT_DIR$/app/views/message_fields/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/messages/show.html.erb" afterPath="$PROJECT_DIR$/app/views/messages/show.html.erb" />
     </list>
     <ignored path="MIST.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379192398955" ignored="false" />
-    <file path="/application.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379197987714" ignored="false" />
+    <file path="/application.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379298330330" ignored="false" />
     <file path="/routes.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379199879054" ignored="false" />
-    <file path="/index.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379208705177" ignored="false" />
+    <file path="/index.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379300179252" ignored="false" />
     <file path="/message.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379274878074" ignored="false" />
-    <file path="/_form.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379212670650" ignored="false" />
+    <file path="/_form.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379284340117" ignored="false" />
     <file path="/messages_controller.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379210998210" ignored="false" />
-    <file path="/show.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379212800475" ignored="false" />
+    <file path="/show.html.erb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379299039633" ignored="false" />
     <file path="/standard.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379212914919" ignored="false" />
     <file path="/standard_spec.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379222896020" ignored="false" />
     <file path="/a.dummy" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379220772707" ignored="false" />
     <file path="/conceptual_entity.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379272129617" ignored="false" />
-    <file path="/conceptual_field.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379272643412" ignored="false" />
-    <file path="$PROJECT_DIR$/db/schema.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379274195402" ignored="false" />
+    <file path="/conceptual_field.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379275362849" ignored="false" />
     <file path="/message_field.rb" changelist="c19aea19-a5f6-46d2-b200-d09cf67c753c" time="1379274783432" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,91 +48,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="standard_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/standard_spec.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/messages/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="444" selection-end="611" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conceptual_entity_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/conceptual_entity_spec.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/message_fields/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="47" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="15" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conceptual_entities_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/conceptual_entities_controller.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="16" column="70" selection-start="391" selection-end="391" vertical-scroll-proportion="-10.0">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/message_fields/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="81" selection-start="450" selection-end="450" vertical-scroll-proportion="0.7741935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conceptual_entity.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/conceptual_entity.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/messages/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+            <state line="14" column="4" selection-start="211" selection-end="258" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conceptual_field.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/conceptual_field.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/message_fields/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="27" column="32" selection-start="769" selection-end="769" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_fields_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/message_fields_controller.rb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="39" column="46" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_field.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/message_field.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/messages/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+            <state line="12" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/message.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/conceptual_fields/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="0.39951575">
+            <state line="3" column="79" selection-start="67" selection-end="139" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standard.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/standard.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="73" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -149,20 +162,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/messages/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/messages_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/messages/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/messages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/standard.rb" />
         <option value="$PROJECT_DIR$/spec/models/standard_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/conceptual_entity.rb" />
-        <option value="$PROJECT_DIR$/app/models/conceptual_field.rb" />
-        <option value="$PROJECT_DIR$/app/models/message_field.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
+        <option value="$PROJECT_DIR$/app/models/message_field.rb" />
+        <option value="$PROJECT_DIR$/app/models/conceptual_field.rb" />
+        <option value="$PROJECT_DIR$/app/views/conceptual_fields/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/conceptual_fields/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/conceptual_fields/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/message_fields/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/messages/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/message_fields/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/message_fields/show.html.erb" />
       </list>
     </option>
   </component>
@@ -174,10 +189,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="845" />
-    <option name="y" value="78" />
-    <option name="width" value="1067" />
-    <option name="height" value="910" />
+    <option name="x" value="772" />
+    <option name="y" value="52" />
+    <option name="width" value="1139" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -221,56 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MIST" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,7 +333,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="message_fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MIST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conceptual_fields" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -800,7 +809,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="845" y="78" width="1067" height="910" extended-state="0" />
+    <frame x="772" y="52" width="1139" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -809,11 +818,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973032" sideWeight="0.6709129" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.453477" sideWeight="0.62315273" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26349497" sideWeight="0.6837607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3768473" sideWeight="0.5004897" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3768473" sideWeight="0.4995103" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31623933" sideWeight="0.50045747" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31623933" sideWeight="0.49954253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -884,114 +893,129 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/requests/messages_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/message_field.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="73" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/message_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/messages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="42" selection-end="42" vertical-scroll-proportion="0.07672634">
+        <state line="43" column="30" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/conceptual_entities/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="119" selection-end="119" vertical-scroll-proportion="0.2189781">
+        <state line="11" column="36" selection-start="400" selection-end="400" vertical-scroll-proportion="-6.875">
+          <folding>
+            <marker date="1379267623358" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379267623358" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379267623358" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379267623358" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conceptual_fields/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="681" selection-end="681" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/messages/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/conceptual_fields/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5196305">
+        <state line="27" column="15" selection-start="749" selection-end="749" vertical-scroll-proportion="-11.0">
+          <folding>
+            <marker date="1379283857131" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379283857131" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379283857131" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/conceptual_fields/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="43" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/messages/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.17321016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/standards_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/standard_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/messages/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="444" selection-end="611" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/conceptual_entity_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/message_fields/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+        <state line="15" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/conceptual_entities_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="70" selection-start="391" selection-end="391" vertical-scroll-proportion="-10.0">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/messages/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/standard.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/conceptual_fields/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="73" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="3" column="79" selection-start="67" selection-end="139" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conceptual_field.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/messages/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="211" selection-end="258" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/message_fields_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="39" column="46" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/conceptual_entity.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/message_fields/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+        <state line="27" column="32" selection-start="769" selection-end="769" vertical-scroll-proportion="-16.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message_field.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/message_fields/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="278" selection-end="278" vertical-scroll-proportion="0.39951575">
+        <state line="24" column="81" selection-start="450" selection-end="450" vertical-scroll-proportion="0.7741935">
           <folding />
         </state>
       </provider>

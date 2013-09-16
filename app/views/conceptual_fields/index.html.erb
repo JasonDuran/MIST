@@ -12,9 +12,9 @@
 
 <% @conceptual_fields.each do |conceptual_field| %>
   <tr>
+    <td><%=ConceptualEntity.find(conceptual_field.conceptual_entity_id).name %></td>
     <td><%= conceptual_field.name %></td>
     <td><%= conceptual_field.datatype %></td>
-    <td><%= conceptual_field.conceptual_entity_id %></td>
     <td><%= link_to 'Show', conceptual_field %></td>
     <td><%= link_to 'Edit', edit_conceptual_field_path(conceptual_field) %></td>
     <td><%= link_to 'Destroy', conceptual_field, method: :delete, data: { confirm: 'Are you sure?' } %></td>

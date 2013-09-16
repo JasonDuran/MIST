@@ -13,8 +13,12 @@
 
   <div class="field">
     <%= f.label :message_id %><br />
-    <%= f.number_field :message_id %>
+    <%= collection_select( :message_field, :message_id, Message.all, :id, :name, {:prompt =>false}) %>
   </div>
+    <div class="field">
+      <%= f.label :conceptual_field_id %><br />
+      <%= collection_select( :message_field, :conceptual_field_id, ConceptualField.all, :id, :name, {:prompt =>false}) %>
+    </div>
   <div class="field">
     <%= f.label :projection %><br />
     <%= f.text_field :projection %>
@@ -22,10 +26,6 @@
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :conceptual_field_id %><br />
-    <%= f.number_field :conceptual_field_id %>
   </div>
   <div class="actions">
     <%= f.submit %>
